@@ -3,6 +3,8 @@ This describes the steps taken in Ubuntu 16.04 to install Colmap. See the follow
 - https://colmap.github.io/install.html
 - http://blog.eihis.com/2017/05/16/3d-photogrammetry-on-linux-with-cuda-colmap/
 - https://github.com/colmap/colmap/issues/156
+
+So far, unsuccessful. 
 ```
 sudo apt-get install cmake build-essential libboost-all-dev libeigen3-dev libsuitesparse-dev libfreeimage-dev libgoogle-glog-dev libgflags-dev libglew-dev qtbase5-dev libqt5opengl5-dev
 
