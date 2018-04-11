@@ -15,7 +15,7 @@ cd ceres-solver
 mkdir build
 cd build
 #cmake .. -DBUILD_TESTING=OFF -DBUILD_EXAMPLES=OFF
-cmake .. -DEIGEN_INCLUDE_DIR=/usr/local/include/eigen3
+cmake .. -DBUILD_TESTING=OFF -DBUILD_EXAMPLES=OFF -DEIGEN_INCLUDE_DIR=/usr/local/include/eigen3
 make -j2
 sudo make install
 
@@ -26,6 +26,7 @@ mkdir build
 cd build
 cmake -DEIGEN3_VERSION=3.2.10 -DEIGEN3_INCLUDE_DIRS=/usr/local/include/eigen3 -DEIGEN_INCLUDE_DIR=/usr/local/include/eigen3/ ..
 make -j2
+sudo make install
 
 ```
 
