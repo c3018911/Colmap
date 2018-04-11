@@ -29,6 +29,11 @@ cd build
 cmake -DEIGEN3_VERSION=3.2.10 -DEIGEN3_INCLUDE_DIRS=/usr/local/include/eigen3 -DEIGEN_INCLUDE_DIR=/usr/local/include/eigen3/ ..
 make -j2
 sudo make install
-
+colmap -h
 ```
 
+#Meshlab
+
+```
+sudo apt-get install meshlab
+```
